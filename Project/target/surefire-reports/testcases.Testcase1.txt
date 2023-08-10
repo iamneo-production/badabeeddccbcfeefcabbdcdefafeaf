@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: testcases.Testcase1
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 20.778 s <<< FAILURE! - in testcases.Testcase1
+beforeMethod(testcases.Testcase1)  Time elapsed: 15.136 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 4.428
+  (Session info: chrome=113.0.5672.63)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [65cdde4054ad0efc6c0e15efa502f0d9, get {url=https://demowebshop.tricentis.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.63, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.vp7gT2}, goog:chromeOptions: {debuggerAddress: localhost:38499}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.4:4444/sessio..., se:cdpVersion: 113.0.5672.63, se:vnc: ws://172.17.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 65cdde4054ad0efc6c0e15efa502f0d9
+	at testcases.Testcase1.beforeMethod(Testcase1.java:159)
+
