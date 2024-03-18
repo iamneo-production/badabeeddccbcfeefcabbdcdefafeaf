@@ -1,0 +1,20 @@
+Mar 18, 2024 3:01:12 PM testcases.Base openBrowser
+INFO: Browser Launched
+Mar 18, 2024 3:01:14 PM testcases.Base openBrowser
+INFO: Browser Loaded the URL
+Mar 18, 2024 3:01:16 PM testcases.Testcase1 Register
+INFO: Browser Navigated to the Register Page
+Mar 18, 2024 3:01:16 PM testcases.Testcase1 Register
+INFO: Female Button clicked in the Register Page
+Mar 18, 2024 3:01:17 PM testcases.Testcase1 Register
+INFO: First Name Entered in the Register Page
+Mar 18, 2024 3:01:17 PM testcases.Testcase1 Register
+INFO: Last Name Entered in the Register Page
+Mar 18, 2024 3:01:17 PM testcases.Testcase1 Register
+INFO: Email Entered in the Register Page
+Mar 18, 2024 3:01:17 PM testcases.Testcase1 Register
+INFO: Password Entered in the Register Page
+Mar 18, 2024 3:01:17 PM testcases.Testcase1 Register
+INFO: Confirm Password Entered in the Register Page
+Mar 18, 2024 3:01:18 PM testcases.Testcase1 Register
+INFO: Screenshot taken in the Register Page

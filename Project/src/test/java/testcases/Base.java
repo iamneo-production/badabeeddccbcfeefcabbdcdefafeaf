@@ -1,4 +1,4 @@
-lopackage testcases;
+package testcases;
 
 import java.io.FileInputStream;
 import java.io.IOException;

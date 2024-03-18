@@ -59,6 +59,11 @@ public class Testcase1 extends Base {
             Screenshot.getScreenShot("Register_Screenshot");
             log.info("Screenshot taken in the Register Page");
             register.Register_Btn();
+            try {
+                Thread.sleep(123000); // Sleep for 5 seconds (5000 milliseconds)
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             log.info("Register Button Clicked");
             test.log(Status.PASS, "Registeration Success");
         } catch (Exception ex) {
