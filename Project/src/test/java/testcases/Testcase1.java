@@ -58,12 +58,13 @@ public class Testcase1 extends Base {
             log.info("Confirm Password Entered in the Register Page");
             Screenshot.getScreenShot("Register_Screenshot");
             log.info("Screenshot taken in the Register Page");
+            System.out.println("Gateway Timeout");
             register.Register_Btn();
-            try {
-                Thread.sleep(123000); // Sleep for 5 seconds (5000 milliseconds)
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            // try {
+            //     Thread.sleep(123000); // Sleep for 5 seconds (5000 milliseconds)
+            // } catch (InterruptedException e) {
+            //     e.printStackTrace();
+            // }
             log.info("Register Button Clicked");
             test.log(Status.PASS, "Registeration Success");
         } catch (Exception ex) {
