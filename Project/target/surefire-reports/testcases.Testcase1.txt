@@ -1,11 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: testcases.Testcase1
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 7.636 s <<< FAILURE! - in testcases.Testcase1
-beforeMethod(testcases.Testcase1)  Time elapsed: 6.163 s  <<< FAILURE!
-java.lang.Error: 
-Unresolved compilation problem: 
-	Type mismatch: cannot convert from java.util.logging.Logger to org.slf4j.Logger
-
-	at testcases.Testcase1.beforeMethod(Testcase1.java:165)
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 183.582 s <<< FAILURE! - in testcases.Testcase1
+beforeMethod(testcases.Testcase1)  Time elapsed: 182.413 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'badabeeddccbcfeefcabbdcdefafeaf-0', ip: '10.56.8.8'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.22'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}]}]
+Capabilities {browserName: chrome}
+	at testcases.Testcase1.beforeMethod(Testcase1.java:166)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+	at testcases.Testcase1.beforeMethod(Testcase1.java:166)
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:4444 after 180000 ms
+	at testcases.Testcase1.beforeMethod(Testcase1.java:166)
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:4444 after 180000 ms
 

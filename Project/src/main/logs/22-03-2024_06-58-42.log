@@ -1,0 +1,46 @@
+Mar 22, 2024 6:58:46 AM testcases.Base openBrowser
+INFO: Browser Launched
+Mar 22, 2024 6:58:49 AM testcases.Base openBrowser
+INFO: Browser Loaded the URL
+Mar 22, 2024 6:58:50 AM testcases.Testcase1 Register
+INFO: Browser Navigated to the Register Page
+Mar 22, 2024 6:58:50 AM testcases.Testcase1 Register
+INFO: Female Button clicked in the Register Page
+Mar 22, 2024 6:58:51 AM testcases.Testcase1 Register
+INFO: First Name Entered in the Register Page
+Mar 22, 2024 6:58:51 AM testcases.Testcase1 Register
+INFO: Last Name Entered in the Register Page
+Mar 22, 2024 6:58:51 AM testcases.Testcase1 Register
+INFO: Email Entered in the Register Page
+Mar 22, 2024 6:58:51 AM testcases.Testcase1 Register
+INFO: Password Entered in the Register Page
+Mar 22, 2024 6:58:51 AM testcases.Testcase1 Register
+INFO: Confirm Password Entered in the Register Page
+Mar 22, 2024 6:58:51 AM testcases.Testcase1 Register
+INFO: Screenshot taken in the Register Page
+Mar 22, 2024 6:58:53 AM testcases.Testcase1 Register
+INFO: Register Button Clicked
+Mar 22, 2024 6:58:53 AM testcases.Testcase1 afterMethod
+INFO: Browser closed
+Mar 22, 2024 6:58:56 AM testcases.Base openBrowser
+INFO: Browser Launched
+Mar 22, 2024 6:58:58 AM testcases.Base openBrowser
+INFO: Browser Loaded the URL
+Mar 22, 2024 6:58:58 AM testcases.Testcase1 Valid_Login_TC
+INFO: username read from excel and entered in the field
+Mar 22, 2024 6:58:59 AM testcases.Testcase1 Valid_Login_TC
+INFO: password read from excel and entered in the field
+Mar 22, 2024 6:58:59 AM testcases.Testcase1 Valid_Login_TC
+INFO: Login Button Clicked
+Mar 22, 2024 6:58:59 AM testcases.Testcase1 Valid_Login_TC
+INFO: Screenshot taken
+Mar 22, 2024 6:58:59 AM testcases.Testcase1 afterMethod
+INFO: Browser closed
+Mar 22, 2024 6:59:00 AM testcases.Base openBrowser
+INFO: Browser Launched
+Mar 22, 2024 6:59:02 AM testcases.Base openBrowser
+INFO: Browser Loaded the URL
+Mar 22, 2024 6:59:02 AM testcases.Testcase1 TC_Vote_003
+INFO: Test Started
+Mar 22, 2024 6:59:04 AM testcases.Testcase1 afterMethod
+INFO: Browser closed
